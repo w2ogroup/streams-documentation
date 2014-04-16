@@ -1,0 +1,236 @@
+{
+  "title": "TwitterJsonTweetActivitySerializer",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "2": {
+      "title": "activity",
+      "id": 11,
+      "ideas": {
+        "1": {
+          "title": "actor",
+          "id": 2,
+          "ideas": {
+            "1": {
+              "title": "id\nid:twitter:{$.user.idStr}",
+              "id": 3,
+              "ideas": {}
+            },
+            "2": {
+              "title": "displayName",
+              "id": 4
+            },
+            "3": {
+              "title": "url",
+              "id": 6
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#E0E0E0"
+            }
+          }
+        },
+        "2": {
+          "title": "content",
+          "id": 12
+        },
+        "3": {
+          "title": "links",
+          "id": 13
+        },
+        "4": {
+          "title": "url\ntwitter.com/{$.idStr}",
+          "id": 14
+        },
+        "5": {
+          "title": "extensions",
+          "id": 19,
+          "ideas": {
+            "1": {
+              "title": "location",
+              "id": 20
+            }
+          }
+        },
+        "6": {
+          "title": "id\nid:twitter:post:{$.idStr}",
+          "id": 30
+        },
+        "7": {
+          "title": "verb\npost",
+          "id": 33
+        },
+        "1.5": {
+          "title": "published",
+          "id": 23
+        }
+      }
+    },
+    "-1": {
+      "title": "tweet",
+      "id": 10,
+      "ideas": {
+        "2": {
+          "title": "text",
+          "id": 18
+        },
+        "12": {
+          "title": "entities",
+          "id": 15,
+          "ideas": {
+            "1": {
+              "title": "urls",
+              "id": 16,
+              "ideas": {
+                "1": {
+                  "title": "expandedUrl",
+                  "id": 17
+                }
+              }
+            }
+          }
+        },
+        "13": {
+          "title": "coordinates",
+          "id": 28
+        },
+        "14": {
+          "title": "idStr",
+          "id": 31
+        },
+        "0.5": {
+          "title": "createdAt",
+          "id": 21
+        },
+        "0.25": {
+          "title": "user",
+          "id": 22,
+          "ideas": {
+            "1": {
+              "title": "idStr",
+              "id": 24
+            },
+            "2": {
+              "title": "screenName",
+              "id": 25
+            },
+            "3": {
+              "title": "url",
+              "id": 27
+            }
+          }
+        }
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 17,
+      "ideaIdTo": 13,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 21,
+      "ideaIdTo": 23,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 18,
+      "ideaIdTo": 12,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 25,
+      "ideaIdTo": 4,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 24,
+      "ideaIdTo": 3,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": true
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 27,
+      "ideaIdTo": 6,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 28,
+      "ideaIdTo": 20,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 31,
+      "ideaIdTo": 30,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 24,
+      "ideaIdTo": 14,
+      "attr": {
+        "style": {
+          "color": "#ff0000",
+          "lineStyle": "dashed",
+          "arrow": false
+        }
+      }
+    }
+  ],
+  "attr": {
+    "measurements-config": [
+      "measure"
+    ],
+    "style": {
+      "background": "#22AAE0"
+    }
+  }
+}

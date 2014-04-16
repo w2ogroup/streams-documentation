@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-03/schema",
+    "id": "#",
+    "javaType" : "org.apache.streams.twitter.pojo.UserstreamEvent",
+    "properties": {
+        "created_at": {
+            "type": "string",
+            "format" : "date-time"
+        },
+        "event_type": {
+            "type": "string",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "source": {
+            "type": "string",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "target": {
+            "type": "string",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "target_object": {
+            "type": "object"
+        }
+    }
+}
